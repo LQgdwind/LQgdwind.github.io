@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LQgdwind.github.io</id>
-    <title>LQgdiwnd</title>
-    <updated>2022-03-21T12:16:26.157Z</updated>
+    <title>LQgdwind</title>
+    <updated>2022-03-21T12:19:45.941Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LQgdwind.github.io"/>
     <link rel="self" href="https://LQgdwind.github.io/atom.xml"/>
-    <subtitle>坐标BIT，软件工程
+    <subtitle>坐标BIT&lt;/br&gt;
+20级软件工程&lt;/br&gt;
 在这里分享大学生活</subtitle>
     <logo>https://LQgdwind.github.io/images/avatar.png</logo>
     <icon>https://LQgdwind.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, LQgdiwnd</rights>
+    <rights>All rights reserved 2022, LQgdwind</rights>
 </feed>
