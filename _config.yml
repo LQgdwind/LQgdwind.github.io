@@ -27,7 +27,7 @@ author:
   name             : "Leqi Zheng(郑乐祺)"
   pronouns         : # example: "she/her"  
   bio              : "Tsinghua University"
-  location         : "Beijing"
+  location         : "Beijing, China"
   employer         : #
   uri              : # URL
   email            : "zhenglq24@mails.tsinghua.edu.cn" 
@@ -38,7 +38,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=9TOGduEAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : #
+  orcid            : "https://orcid.org/my-orcid?orcid=0009-0001-8012-100X"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : #
