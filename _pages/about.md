@@ -40,27 +40,27 @@ Selected Papers
 
 - **Negative Feedback Really Matters: Signed Dual-Channel Graph Contrastive Learning Framework for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Zixin Song, Cheng Wu, Shannan Yan, Jiajun Zhang, Ziyang Liu 
-  _NeurlPS, 2025_  
+  NeurlPS, 2025  
   \[ [Paper](#) | [Code](#) \]
 
 - **LAGCL4Rec: When LLMs Activate Interactions Potential in Graph Contrastive Learning for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Canzhi Chen, Jiajun Zhang, Cheng Wu, Zixin Song, Shannan Yan, Ziyang Liu, Hongwei Li
-  _EMNLP, 2025_  
+  EMNLP, 2025  
   \[ [Paper](#) | [Code](#) \]
 
 - **Balancing Self-Presentation and Self-Hiding for Exposure-Aware Recommendation Based on Graph Contrastive Learning**  
   **Leqi Zheng**, Chaokun Wang, Ziyang Liu, Canzhi Chen, Cheng Wu, Hongwei Li
-  _SIGIR, 2025_  
+  SIGIR, 2025  
   \[ [Paper](#) | [Code](#) \]
 
 - **Audio-Visual World Models: Towards Multisensory Imagination in Sight and Sound**  
   Jiahua Wang*, Shannan Yan*, **Leqi Zheng***, Jialong Wu, Yaoxin Mao
-  _UnderReview, 2026_  
+  UnderReview, 2026  
   \[ [Paper](#) | [Code](#) \]
   
 - **What Should I Cite? A RAG Benchmark for Academic Citation Prediction**  
   **Leqi Zheng***, Jiajun Zhang*, Canzhi Chen*, Chaokun Wang, Hongwei Li, Yuying Li, Yaoxin Mao, Shannan Yan, Zixin Song, Zhiyuan Feng, Zhaolu Kang, Zirong Chen, Hang Zhang, Qiang Liu, Liang Wang and Ziyang Liu
-  _UnderReview, 2026_  
+  UnderReview, 2026  
   \[ [Paper](#) | [Code](#) \]
 
 Honors and Awards
