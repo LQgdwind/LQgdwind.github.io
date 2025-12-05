@@ -7,9 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-About me
-------
-
 I am a second-year master student at Tsinghua University. My research mainly lies in **LLMs**, **Agentic Reinforcement Learning (Agentic RL)**, and **Information Retrieval (IR)**, with a recent emphasis on **Web Agents**.
 
 A core motivation of my work is to use **interaction with real environments** to **improve the base competence of models**, such as their planning ability, robustness, and generalization.
