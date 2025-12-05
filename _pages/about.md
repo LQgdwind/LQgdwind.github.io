@@ -39,37 +39,30 @@ Selected Papers
 ------
 
 - **Negative Feedback Really Matters: Signed Dual-Channel Graph Contrastive Learning Framework for Recommendation**  
-  **Leqi Zheng**, Chaokun Wang, Zixin Song, Cheng Wu, Shannan Yan, Jiajun Zhang, Ziyang Liu 
-
-  NeurlPS, 2025  
+  **Leqi Zheng**, Chaokun Wang, Zixin Song, Cheng Wu, Shannan Yan, Jiajun Zhang, Ziyang Liu  &nbsp; **(NeurlPS, 2025)**  
   \[ [Paper](#) | [Code](#) \]
 
 - **LAGCL4Rec: When LLMs Activate Interactions Potential in Graph Contrastive Learning for Recommendation**  
-  **Leqi Zheng**, Chaokun Wang, Canzhi Chen, Jiajun Zhang, Cheng Wu, Zixin Song, Shannan Yan, Ziyang Liu, Hongwei Li
-
-  EMNLP, 2025  
+  **Leqi Zheng**, Chaokun Wang, Canzhi Chen, Jiajun Zhang, Cheng Wu, Zixin Song, Shannan Yan, Ziyang Liu, Hongwei Li &nbsp; **(EMNLP, 2025)**  
   \[ [Paper](#) | [Code](#) \]
 
 - **Balancing Self-Presentation and Self-Hiding for Exposure-Aware Recommendation Based on Graph Contrastive Learning**  
-  **Leqi Zheng**, Chaokun Wang, Ziyang Liu, Canzhi Chen, Cheng Wu, Hongwei Li
-
-  SIGIR, 2025  
+  **Leqi Zheng**, Chaokun Wang, Ziyang Liu, Canzhi Chen, Cheng Wu, Hongwei Li &nbsp; **(SIGIR, 2025)**  
   \[ [Paper](#) | [Code](#) \]
 
 - **Audio-Visual World Models: Towards Multisensory Imagination in Sight and Sound**  
-  Jiahua Wang*, Shannan Yan*, **Leqi Zheng***, Jialong Wu, Yaoxin Mao
-  UnderReview, 2026  
+  Jiahua Wang*, Shannan Yan*, **Leqi Zheng***, Jialong Wu, Yaoxin Mao  &nbsp; **(UnderReview)** 
+    
   \[ [Paper](#) | [Code](#) \]
   
 - **What Should I Cite? A RAG Benchmark for Academic Citation Prediction**  
-  **Leqi Zheng***, Jiajun Zhang*, Canzhi Chen*, Chaokun Wang, Hongwei Li, Yuying Li, Yaoxin Mao, Shannan Yan, Zixin Song, Zhiyuan Feng, Zhaolu Kang, Zirong Chen, Hang Zhang, Qiang Liu, Liang Wang and Ziyang Liu
-  UnderReview, 2026  
+  **Leqi Zheng***, Jiajun Zhang*, Canzhi Chen*, Chaokun Wang, Hongwei Li, Yuying Li, Yaoxin Mao, Shannan Yan, Zixin Song, Zhiyuan Feng, Zhaolu Kang, Zirong Chen, Hang Zhang, Qiang Liu, Liang Wang and Ziyang Liu &nbsp; **(UnderReview)**  
   \[ [Paper](#) | [Code](#) \]
 
 Honors and Awards
 ------
 
-- **2024** Excellent Higher Education Graduate of Beijing Municipality 
+- **2024** &nbsp; Excellent Higher Education Graduate of Beijing Municipality 
 - **2023** &nbsp; China National Scholarship
 - **2022** &nbsp; China National Scholarship
 
