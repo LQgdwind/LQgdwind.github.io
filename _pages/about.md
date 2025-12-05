@@ -70,13 +70,13 @@ Experience
 ------
 
 -  Research Intern, THUIR, Department of Computer Science and Technology, Tsinghua University.
-  -  Work on Information Retrieval. 
+   -  Work on Information Retrieval. 
 -  Research Intern, AntGroup.
-  -  Work on Agentic RL and Ling Post-training. 
+   -  Work on Agentic RL and Ling Post-training. 
 -  Research Intern, Wangxuan Institute of Computer Technology, Peking University.
-  -  Work on Recsys.  
+   -  Work on Recsys.  
 -  Research Intern, JD.com, Inc.
-  -  Work on Data Mining and Recsys. 
+   -  Work on Data Mining and Recsys. 
 
 ---
 
