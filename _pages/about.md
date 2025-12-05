@@ -7,47 +7,81 @@ redirect_from:
   - /about.html
 ---
 
-
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+About me
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
+I am a second-year master student at Tsinghua University. My research mainly lies in **LLMs, Agentic Reinforcement Learning (Agentic RL)** and **Information Retrieval (IR)**, with a recent emphasis on **Web Agents**.
+A core motivation of my work is to use **interaction with real environments** to **improve the base competence of models**—such as their planning ability, robustness, and generalization, rather than only optimizing for narrow, static benchmarks.
+
+Research Interests
 ------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+My current and past research topics include:
+- **LLMs & Agentic Reinforcement Learning**  
+  - Building **web agents** that autonomously browse, understand, and operate complex websites to complete long-horizon tasks.  
+  - Using web interaction as a **training ground to enhance the “base schema” / fundamental capabilities** of models, such as:
+    - strategic planning and task decomposition,  
+    - tool use and API interaction,  
+    - handling noisy, dynamic, and partially observable environments.  
+  - Integrating **RL with LLMs** so that agents can learn from **trial-and-error** in realistic tasks, instead of relying only on offline supervised data.  
+  - Studying how agentic interaction can feedback into **better pretrained/backbone models** (e.g., via behavior data, trajectories, and preferences).
+- **Information Retrieval**  
+  - **Retrieval-Augmented Generation (RAG)**  
+    - Designing retrieval and reranking pipelines to support LLMs with accurate and up-to-date external knowledge.  
+    - Analyzing how retrieval quality and system design affect downstream reasoning and generation robustness.  
+  - **Recommender Systems (Recsys)**  
+    - Exploring retrieval and ranking methods in recommender systems, especially under sparse signals or long-term user feedback.  
+    - Studying how interaction data and user behavior can be exploited to improve both **retrieval** and **personalized recommendation**.  
+  - More broadly, I am interested in **neural retrieval, learning to rank, and evaluation** for IR and recommendation, especially when combined with agentic LLMs.
+I am broadly interested in the intersection of **RL, LLM-based agents and IR**, and in how **real-world interaction** can be leveraged to build more capable and reliable foundation models.
 
-**Markdown generator**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
+Selected Papers
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+- **Negative Feedback Really Matters: Signed Dual-Channel Graph Contrastive Learning Framework for Recommendation**  
+  *Leqi Zheng*, Chaokun Wang, Zixin Song, Cheng Wu, Shannan Yan, Jiajun Zhang, Ziyang Liu 
+  _NeurlPS, 2025_  
+  \[ [Paper](#) | [Code](#) \]
 
-For more info
+- **LAGCL4Rec: When LLMs Activate Interactions Potential in Graph Contrastive Learning for Recommendation**  
+  *Leqi Zheng*, Chaokun Wang, Canzhi Chen, Jiajun Zhang, Cheng Wu, Zixin Song, Shannan Yan, Ziyang Liu, Hongwei Li
+  _EMNLP, 2025_  
+  \[ [Paper](#) | [Code](#) \]
+
+- **Balancing Self-Presentation and Self-Hiding for Exposure-Aware Recommendation Based on Graph Contrastive Learning**  
+  *Leqi Zheng*, Chaokun Wang, Ziyang Liu, Canzhi Chen, Cheng Wu, Hongwei Li
+  _SIGIR, 2025_  
+  \[ [Paper](#) | [Code](#) \]
+
+- **Audio-Visual World Models: Towards Multisensory Imagination in Sight and Sound**  
+  Jiahua Wang*, Shannan Yan*, *Leqi Zheng**, Jialong Wu, Yaoxin Mao
+  _UnderReview, 2026_  
+  \[ [Paper](#) | [Code](#) \]
+  
+- **What Should I Cite? A RAG Benchmark for Academic Citation Prediction**  
+  *Leqi Zheng**, Jiajun Zhang*, Canzhi Chen*, Chaokun Wang, Hongwei Li, Yuying Li, Yaoxin Mao, Shannan Yan, Zixin Song, Zhiyuan Feng, Zhaolu Kang, Zirong Chen, Hang Zhang, Qiang Liu, Liang Wang and Ziyang Liu
+  _UnderReview, 2026_  
+  \[ [Paper](#) | [Code](#) \]
+
+Honors and Awards
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+- **2024** Excellent Higher Education Graduate of Beijing Municipality 
+- **2023** &nbsp; China National Scholarship
+- **2022** &nbsp; China National Scholarship
+
+Experience
+------
+
+-  Research Intern, THUIR, Department of Computer Science and Technology, Tsinghua University.
+  -  Work on Information Retrieval. 
+-  Research Intern, AntGroup.
+  -  Work on Agentic RL and Ling Post-training. 
+-  Research Intern, Wangxuan Institute of Computer Technology, Peking University.
+  -  Work on Recsys.  
+-  Research Intern, JD.com, Inc.
+  -  Work on Data Mining and Recsys. 
+
+---
+
+_Last updated: Dec. 2025_
