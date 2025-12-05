@@ -40,16 +40,19 @@ Selected Papers
 
 - **Negative Feedback Really Matters: Signed Dual-Channel Graph Contrastive Learning Framework for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Zixin Song, Cheng Wu, Shannan Yan, Jiajun Zhang, Ziyang Liu 
+
   NeurlPS, 2025  
   \[ [Paper](#) | [Code](#) \]
 
 - **LAGCL4Rec: When LLMs Activate Interactions Potential in Graph Contrastive Learning for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Canzhi Chen, Jiajun Zhang, Cheng Wu, Zixin Song, Shannan Yan, Ziyang Liu, Hongwei Li
+
   EMNLP, 2025  
   \[ [Paper](#) | [Code](#) \]
 
 - **Balancing Self-Presentation and Self-Hiding for Exposure-Aware Recommendation Based on Graph Contrastive Learning**  
   **Leqi Zheng**, Chaokun Wang, Ziyang Liu, Canzhi Chen, Cheng Wu, Hongwei Li
+
   SIGIR, 2025  
   \[ [Paper](#) | [Code](#) \]
 
