@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year master student at Tsinghua University. My research mainly lies in **LLMs**, **Agentic Reinforcement Learning (Agentic RL)**, and **Information Retrieval (IR)**, with a recent emphasis on **Web Agents**.
+I am a second-year Master's student at Tsinghua University. My research mainly lies in **Large Language Models (LLMs)**, **Agentic Reinforcement Learning (Agentic RL)**, and **Information Retrieval (IR)**, with a recent emphasis on **Web Agents**.
 
-A core motivation of my work is to use **interaction with real environments** to **improve the base competence of models**, such as their planning ability, robustness, and generalization.
+A core motivation of my work is to use interaction with real environments to **improve the base competence of models**, such as their planning ability, robustness, and generalization. Ultimately, I aim to build more capable and reliable foundation models.
+
+I am currently seeking PhD positions starting in Fall 2027, with a primary focus on opportunities in mainland China, Hong Kong, and Singapore.
 
 Research Interests
 ------
@@ -33,7 +35,6 @@ My current and past research topics include:
     - Exploring retrieval and ranking methods in recommender systems, especially under sparse signals or long-term user feedback.  
     - Studying how interaction data and user behavior can be exploited to improve both **retrieval** and **personalized recommendation**.  
 
-I am broadly interested in the intersection of **RL, LLM-based agents, and IR**, and I want to build more capable and reliable foundation models.
 
 Selected Papers (First-Author)
 ------
