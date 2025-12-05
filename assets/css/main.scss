@@ -41,3 +41,10 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ===== custom overrides below ===== */
+
+/* Hide top navigation bar (masthead, including Home and light/dark toggle) */
+.masthead {
+  display: none !important;
+}
