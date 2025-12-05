@@ -19,9 +19,9 @@ My current and past research topics include:
 - **LLMs & Agentic Reinforcement Learning**  
   - Building **web agents** that autonomously browse, understand, and operate complex websites to complete long-horizon tasks.  
   - Using web interaction as a **training ground to enhance the fundamental capabilities** of models, such as:
-    - strategic planning and task decomposition,  
-    - tool use and API interaction,  
-    - handling noisy, dynamic, and partially observable environments.  
+    - Strategic planning and task decomposition,  
+    - Tool use and API interaction,  
+    - Handling noisy, dynamic, and partially observable environments.  
   - Integrating **RL with LLMs** so that agents can learn from **trial-and-error** in realistic tasks, instead of relying only on offline supervised data.  
   - Studying how agentic interaction can feed back into **better pretrained/backbone models** (e.g., via behavior data, trajectories, and preferences).
 
@@ -32,9 +32,8 @@ My current and past research topics include:
   - **Recommender Systems (Recsys)**  
     - Exploring retrieval and ranking methods in recommender systems, especially under sparse signals or long-term user feedback.  
     - Studying how interaction data and user behavior can be exploited to improve both **retrieval** and **personalized recommendation**.  
-  - More broadly, I am interested in **neural retrieval**, **learning to rank**, and **evaluation** for IR and recommendation, especially when combined with agentic LLMs.
 
-I am broadly interested in the intersection of **RL, LLM-based agents, and IR**, and in how **real-world interaction** can be leveraged to build more capable and reliable foundation models.
+I am broadly interested in the intersection of **RL, LLM-based agents, and IR**, and I want to build more capable and reliable foundation models.
 
 Selected Papers (First-Author)
 ------
@@ -80,10 +79,10 @@ Experience
   - Work on Agentic RL and LLM post-training. 
 
 - **Research Intern**, Wangxuan Institute of Computer Technology, Peking University  
-  - Work on recommender systems.  
+  - Work on Recommender Systems.  
 
 - **Research Intern**, JD.com, Inc.  
-  - Work on data mining and recommender systems. 
+  - Work on Data Mining and Recommender Systems. 
 
 ---
 
