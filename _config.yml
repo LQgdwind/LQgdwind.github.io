@@ -23,7 +23,7 @@ repository               : "LQgdwind/LQgdwind.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "1.png"
   name             : "Leqi Zheng (郑乐祺)"
   pronouns         : # example: "she/her"  
   bio              : "Tsinghua University"
