@@ -36,33 +36,32 @@ My current and past research topics include:
 
 I am broadly interested in the intersection of **RL, LLM-based agents, and IR**, and in how **real-world interaction** can be leveraged to build more capable and reliable foundation models.
 
-Selected Papers
+Selected Papers (First-Author)
 ------
 
+- **What Should I Cite? A RAG Benchmark for Academic Citation Prediction**  
+  **Leqi Zheng\***, Jiajun Zhang\*, Canzhi Chen\*, Chaokun Wang, Hongwei Li, Yuying Li, Yaoxin Mao, Shannan Yan, Zixin Song, Zhiyuan Feng, Zhaolu Kang, Zirong Chen, Hang Zhang, Qiang Liu, Liang Wang, Ziyang Liu  
+  _Under review_
+  
 - **Negative Feedback Really Matters: Signed Dual-Channel Graph Contrastive Learning Framework for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Zixin Song, Cheng Wu, Shannan Yan, Jiajun Zhang, Ziyang Liu  
   _NeurIPS 2025_  
-  \[ [Paper](#) | [Code](#) \]
-
+  \[ [Paper](#https://neurips.cc/virtual/2025/loc/san-diego/poster/116921) | [Code](https://github.com/LQgdwind/nips25-sdcgcl) \]
+  
 - **LAGCL4Rec: When LLMs Activate Interactions Potential in Graph Contrastive Learning for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Canzhi Chen, Jiajun Zhang, Cheng Wu, Zixin Song, Shannan Yan, Ziyang Liu, Hongwei Li  
   _EMNLP 2025_  
-  \[ [Paper](#) | [Code](#) \]
-
+  \[ [Paper](#https://aclanthology.org/2025.findings-emnlp.61/) | [Code](https://github.com/LQgdwind/emnlp25-lagcl4rec) \]
+  
 - **Balancing Self-Presentation and Self-Hiding for Exposure-Aware Recommendation Based on Graph Contrastive Learning**  
   **Leqi Zheng**, Chaokun Wang, Ziyang Liu, Canzhi Chen, Cheng Wu, Hongwei Li  
   _SIGIR 2025_  
-  \[ [Paper](#) | [Code](#) \]
-
+  \[ [Paper](#https://dl.acm.org/doi/10.1145/3726302.3729900) | [Code](https://github.com/LQgdwind/sigir25-bph4rec) \]
+  
 - **Audio-Visual World Models: Towards Multisensory Imagination in Sight and Sound**  
   Jiahua Wang\*, Shannan Yan\*, **Leqi Zheng\***, Jialong Wu, Yaoxin Mao  
   _Under review_  
-  \[ [Paper](#) | [Code](#) \]
-  
-- **What Should I Cite? A RAG Benchmark for Academic Citation Prediction**  
-  **Leqi Zheng\***, Jiajun Zhang\*, Canzhi Chen\*, Chaokun Wang, Hongwei Li, Yuying Li, Yaoxin Mao, Shannan Yan, Zixin Song, Zhiyuan Feng, Zhaolu Kang, Zirong Chen, Hang Zhang, Qiang Liu, Liang Wang, Ziyang Liu  
-  _Under review_  
-  \[ [Paper](#) | [Code](#) \]
+  \[ [Paper](#https://www.arxiv.org/abs/2512.00883)\]
 
 Honors and Awards
 ------
