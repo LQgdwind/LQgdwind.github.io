@@ -41,7 +41,7 @@ Selected Papers (First-Author)
 
 - **What Should I Cite? A RAG Benchmark for Academic Citation Prediction**  
   **Leqi Zheng\***, Jiajun Zhang\*, Canzhi Chen\*, Chaokun Wang, Hongwei Li, Yuying Li, Yaoxin Mao, Shannan Yan, Zixin Song, Zhiyuan Feng, Zhaolu Kang, Zirong Chen, Hang Zhang, Qiang Liu, Liang Wang, Ziyang Liu  
-  _Under review_
+  _The Web Conf 2026_
   
 - **Negative Feedback Really Matters: Signed Dual-Channel Graph Contrastive Learning Framework for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Zixin Song, Cheng Wu, Shannan Yan, Jiajun Zhang, Ziyang Liu  
@@ -73,18 +73,18 @@ Honors and Awards
 Experience
 ------
 
-- **Research Intern**, THUIR, Department of Computer Science and Technology, Tsinghua University  
+- **Research Intern**, THUIR, Department of Computer Science and Technology, Tsinghua University, 2025
   - Work on Information Retrieval. 
 
-- **Research Intern**, Ant Group  
-  - Work on Agentic RL and LLM post-training. 
+- **Research Intern**, Ant Group, 2025  
+  - Work on Agentic RL and LLM post-training.  
 
-- **Research Intern**, Wangxuan Institute of Computer Technology, Peking University  
-  - Work on Recommender Systems.  
+- **Research Intern**, JD.com, Inc., 2024  
+  - Work on Data Mining and Recommender Systems.
 
-- **Research Intern**, JD.com, Inc.  
-  - Work on Data Mining and Recommender Systems. 
+- **Research Intern**, Wangxuan Institute of Computer Technology, Peking University, 2023
+  - Work on Recommender Systems. 
 
 ---
 
-_Last updated: Dec. 2025_
+_Last updated: Jan. 2026_
