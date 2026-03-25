@@ -13,7 +13,6 @@ Research Interests
 ------
 
 **LLMs & Agentic Reinforcement Learning:** Focuses on empowering models to learn from interaction and trial-and-error in realistic, complex environments. This includes:
-
 * 🔍 **Search Agents**
   
     Building autonomous search agents that navigate dynamic information environments to conduct deep research and execute long-horizon knowledge synthesis.
@@ -25,7 +24,7 @@ Research Interests
 **Information Retrieval:** Exploring advanced retrieval pipelines to connect models and users with accurate, high-quality information. Key aspects include:
 
 * 📚 **Retrieval-Augmented Generation (RAG)**
-  
+
     Designing retrieval and reranking pipelines to support LLMs with accurate and up-to-date external knowledge.
   
 * 🎯 **Recommender Systems (Recsys)**
