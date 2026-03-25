@@ -46,7 +46,8 @@ Education
 Models & Technical Reports
 ------
 
-- **Ring-2.5-1T** inclusionAI Team, AntGroup \[ [Model Card](https://huggingface.co/inclusionAI/Ring-2.5-1T) \]
+- 💍 **Ring-2.5-1T** inclusionAI Team, Ant Group \[ [Model Card](https://huggingface.co/inclusionAI/Ring-2.5-1T) \]
+
 
 Selected Papers (First-Author)
 ------
@@ -93,17 +94,17 @@ Honors and Awards
 
 Experience
 ------
-- **Research Intern**, Z.ai, 2026
-  - Work on Code Agent and LLM post-training.
-    
-- **Research Intern**, Ant Group, 2025  
-  - Work on Search Agent and LLM post-training.
-    
-- **Research Intern**, THUIR, Department of Computer Science and Technology, Tsinghua University, 2025-Now
-  - Work on Information Retrieval. 
+- 🆉 **Research Intern**, Z.ai, 2026
+  - Working on Code Agents and LLM post-training.
 
-- **Research Intern**, Wangxuan Institute of Computer Technology, Peking University, 2023
-  - Work on Recommender Systems. 
+- 🏫 **Research Intern**, THUIR, Department of Computer Science and Technology, Tsinghua University, 2025-Now
+  - Focusing on Information Retrieval.
+
+- 🐜 **Research Intern**, Ant Group, 2025
+  - Worked on Search Agents and LLM post-training.
+
+- 🏫 **Research Intern**, Wangxuan Institute of Computer Technology, Peking University, 2023
+  - Worked on Recommender Systems.
 
 ---
 
