@@ -90,16 +90,28 @@ Honors and Awards
 
 Experience
 ------
-- 🆉 **Research Intern**, Z.ai, 2026
+- 🆉 **Research Intern**
+  - Z.ai, 2026 ~ Now
   - Working on Code Agents and LLM post-training.
 
-- 🏫 **Research Intern**, THUIR, Department of Computer Science and Technology, Tsinghua University, 2025-Now
-  - Focusing on Information Retrieval.
-
-- 🐜 **Research Intern**, Ant Group, 2025
+- 🐜 **Research Intern**
+  - Ant Group, 2025 ~ 2026
   - Worked on Search Agents and LLM post-training.
 
-- 🏫 **Research Intern**, Wangxuan Institute of Computer Technology, Peking University, 2023
+- 🏫 **Research Intern**
+  - THUIR, Department of Computer Science and Technology, Tsinghua University, 2025 ~ Now
+  - Focusing on Information Retrieval.
+  
+- 💬 **Research Collaborator (Joint Research Project)**
+  - Sina Weibo, 2025
+  - Worked on LLM and Information Retrieval.
+  
+- 🐶 **Research Collaborator (Joint Research Project)**
+  - JD.com, 2024
+  - Worked on Recommender Systems.
+
+- 🏫 **Research Intern**
+  - Wangxuan Institute of Computer Technology, Peking University, 2023
   - Worked on Recommender Systems.
 
 ---
