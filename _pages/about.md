@@ -7,21 +7,32 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Master's student at Tsinghua University. My research mainly lies in **Large Language Models (LLMs)**, **Agentic Reinforcement Learning (Agentic RL)**, and **Information Retrieval (IR)**, with a recent emphasis on **Code Agent and Search Agent**.
-
+I am a second-year Master's student at Tsinghua University. My research mainly lies in **Large Language Models (LLMs)**, **Agentic Reinforcement Learning**, and **Information Retrieval**, with a recent emphasis on developing autonomous **Search and Code Agents**.
 
 Research Interests
 ------
 
-My current and past research topics include:
+**LLMs & Agentic Reinforcement Learning:** Focuses on empowering models to learn from interaction and trial-and-error in realistic, complex environments. This includes:
 
-- **LLMs & Agentic Reinforcement Learning**  
-  - **Search Agents:** Building autonomous search agents that navigate dynamic information environments to conduct deep research and execute long-horizon knowledge synthesis.  
-  - **Code Agents:** Developing code agents that interact with software sandboxes and leverage reinforcement learning to solve complex engineering problems through trial-and-error.
+* 🔍 **Search Agents**
+  
+    Building autonomous search agents that navigate dynamic information environments to conduct deep research and execute long-horizon knowledge synthesis.
 
-- **Information Retrieval**  
-  - **Retrieval-Augmented Generation (RAG):** Designing retrieval and reranking pipelines to support LLMs with accurate and up-to-date external knowledge.  
-  - **Recommender Systems (Recsys):** Exploring retrieval and ranking methods in recommender systems, especially under sparse signals or long-term user feedback.  
+* 💻 **Code Agents**
+  
+    Developing code agents that interact with software sandboxes and leverage reinforcement learning to solve complex engineering problems through trial-and-error.
+
+**Information Retrieval:** Exploring advanced retrieval pipelines to connect models and users with accurate, high-quality information. Key aspects include:
+
+* 📚 **Retrieval-Augmented Generation (RAG)**
+  
+    Designing retrieval and reranking pipelines to support LLMs with accurate and up-to-date external knowledge.
+  
+* 🎯 **Recommender Systems (Recsys)**
+  
+    Exploring retrieval and ranking methods in recommender systems, especially under sparse signals or long-term user feedback.
+
+I am also deeply interested in leveraging **Reinforcement Learning** to unlock the reasoning and decision-making capabilities of LLMs across diverse, interactive environments: from web navigation to software engineering. Ultimately, I aim to explore how agentic interaction and trial-and-error can feed back into training **stronger and more robust backbone models**. I look forward to collaborating and exchanging ideas with researchers in these exciting areas!
 
 
 Education
@@ -35,14 +46,14 @@ Education
 Models & Technical Reports
 ------
 
-- **Ring-2.5-1T** inclusionAI Team \[ [Model Card](https://huggingface.co/inclusionAI/Ring-2.5-1T) \]
+- **Ring-2.5-1T** inclusionAI Team, AntGroup \[ [Model Card](https://huggingface.co/inclusionAI/Ring-2.5-1T) \]
 
 Selected Papers (First-Author)
 ------
 
 - **SciLENS: RL-Driven Autonomous Agents for Scientific Localized Evidence Navigation and Synthesis**  
-  **Leqi Zheng\***, Jinbo Su\*, Haitao Li\*, Chaokun Wang, Jiajun Zhang, Shannan Yan, Zhaolu Kang, Rong Fu, Fang Niu, Hang Zhang
-  \[ [Paper]\]
+  **Leqi Zheng\***, Jinbo Su\*, Haitao Li\*, Chaokun Wang, Jiajun Zhang, Shannan Yan, Zhaolu Kang, Rong Fu, Fang Niu, Hang Zhang  
+  [Paper]
 
 - **AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents**  
   Shannan Yan\*, Jingchen Ni\*, **Leqi Zheng\***, Jiajun Zhang, Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao  
