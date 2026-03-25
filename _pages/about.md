@@ -7,11 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Master's student at Tsinghua University. My research mainly lies in **Large Language Models (LLMs)**, **Agentic Reinforcement Learning (Agentic RL)**, and **Information Retrieval (IR)**, with a recent emphasis on **Web Agents**.
+I am a second-year Master's student at Tsinghua University. My research mainly lies in **Large Language Models (LLMs)**, **Agentic Reinforcement Learning (Agentic RL)**, and **Information Retrieval (IR)**, with a recent emphasis on **Code Agent and Search Agent**.
 
-A core motivation of my work is to use interaction with real environments to **improve the base competence of models**, such as their planning ability, robustness, and generalization. Ultimately, I aim to build more capable and reliable foundation models.
-
-I am currently seeking PhD positions starting in Fall 2027, with a primary focus on opportunities in mainland China, Hong Kong, and Singapore.
 
 Research Interests
 ------
@@ -19,30 +16,45 @@ Research Interests
 My current and past research topics include:
 
 - **LLMs & Agentic Reinforcement Learning**  
-  - Building **web agents** that autonomously browse, understand, and operate complex websites to complete long-horizon tasks.  
-  - Using web interaction as a **training ground to enhance the fundamental capabilities** of models, such as:
-    - Strategic planning and task decomposition,  
-    - Tool use and API interaction,  
-    - Handling noisy, dynamic, and partially observable environments.  
-  - Integrating **RL with LLMs** so that agents can learn from **trial-and-error** in realistic tasks, instead of relying only on offline supervised data.  
-  - Studying how agentic interaction can feed back into **better pretrained/backbone models** (e.g., via behavior data, trajectories, and preferences).
+  - **Search Agents:** Building autonomous search agents that navigate dynamic information environments to conduct deep research and execute long-horizon knowledge synthesis.  
+  - **Code Agents:** Developing code agents that interact with software sandboxes and leverage reinforcement learning to solve complex engineering problems through trial-and-error.
 
 - **Information Retrieval**  
-  - **Retrieval-Augmented Generation (RAG)**  
-    - Designing retrieval and reranking pipelines to support LLMs with accurate and up-to-date external knowledge.  
-    - Analyzing how retrieval quality and system design affect downstream reasoning and generation robustness.  
-  - **Recommender Systems (Recsys)**  
-    - Exploring retrieval and ranking methods in recommender systems, especially under sparse signals or long-term user feedback.  
-    - Studying how interaction data and user behavior can be exploited to improve both **retrieval** and **personalized recommendation**.  
+  - **Retrieval-Augmented Generation (RAG):** Designing retrieval and reranking pipelines to support LLMs with accurate and up-to-date external knowledge.  
+  - **Recommender Systems (Recsys):** Exploring retrieval and ranking methods in recommender systems, especially under sparse signals or long-term user feedback.  
 
+
+Education
+------
+
+* **08.2024-present** M.S., Tsinghua University, China.
+* **10.2020-06.2024** B.S., Beijing Institute of Technology, China.
+
+
+Models & Technical Reports
+------
+
+- **Ring-2.5-1T** inclusionAI Team \[ [Model Card](https://huggingface.co/inclusionAI/Ring-2.5-1T) \]
 
 Selected Papers (First-Author)
 ------
+
+- **SciLENS: RL-Driven Autonomous Agents for Scientific Localized Evidence Navigation and Synthesis**  
+  **Leqi Zheng\***, Jinbo Su\*, Haitao Li\*, Chaokun Wang, Jiajun Zhang, Shannan Yan, Zhaolu Kang, Rong Fu, Fang Niu, Hang Zhang
+  \[ [Paper]\]
+
+- **AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents**  
+  Shannan Yan\*, Jingchen Ni\*, **Leqi Zheng\***, Jiajun Zhang, Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao  
+  \[ [Paper](https://arxiv.org/abs/2603.16496)\]
 
 - **What Should I Cite? A RAG Benchmark for Academic Citation Prediction**  
   **Leqi Zheng\***, Jiajun Zhang\*, Canzhi Chen\*, Chaokun Wang, Hongwei Li, Yuying Li, Yaoxin Mao, Shannan Yan, Zixin Song, Zhiyuan Feng, Zhaolu Kang, Zirong Chen, Hang Zhang, Qiang Liu, Liang Wang, Ziyang Liu  
   _The Web Conf 2026_  
   \[ [Paper](https://arxiv.org/pdf/2601.14949) | [Code](https://github.com/LQgdwind/CiteRAG) \]
+  
+- **Audio-Visual World Models: Towards Multisensory Imagination in Sight and Sound**  
+  Jiahua Wang\*, Shannan Yan\*, **Leqi Zheng\***, Jialong Wu, Yaoxin Mao  
+  \[ [Paper](https://www.arxiv.org/abs/2512.00883)\]
   
 - **Negative Feedback Really Matters: Signed Dual-Channel Graph Contrastive Learning Framework for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Zixin Song, Cheng Wu, Shannan Yan, Jiajun Zhang, Ziyang Liu  
@@ -58,34 +70,29 @@ Selected Papers (First-Author)
   **Leqi Zheng**, Chaokun Wang, Ziyang Liu, Canzhi Chen, Cheng Wu, Hongwei Li  
   _SIGIR 2025_  
   \[ [Paper](https://dl.acm.org/doi/10.1145/3726302.3729900) | [Code](https://github.com/LQgdwind/sigir25-bph4rec) \]
-  
-- **Audio-Visual World Models: Towards Multisensory Imagination in Sight and Sound**  
-  Jiahua Wang\*, Shannan Yan\*, **Leqi Zheng\***, Jialong Wu, Yaoxin Mao  
-  _Under review_  
-  \[ [Paper](https://www.arxiv.org/abs/2512.00883)\]
+
 
 Honors and Awards
 ------
-
+- **2025** &nbsp; Yang Huiyan Scholarship at Tsinghua University
 - **2024** &nbsp; Excellent Higher Education Graduate of Beijing Municipality  
 - **2023** &nbsp; China National Scholarship  
 - **2022** &nbsp; China National Scholarship  
 
 Experience
 ------
-
-- **Research Intern**, THUIR, Department of Computer Science and Technology, Tsinghua University, 2025
-  - Work on Information Retrieval. 
-
+- **Research Intern**, Z.ai, 2026
+  - Work on Code Agent and LLM post-training.
+    
 - **Research Intern**, Ant Group, 2025  
-  - Work on Agentic RL and LLM post-training.  
-
-- **Research Intern**, JD.com, Inc., 2024  
-  - Work on Data Mining and Recommender Systems.
+  - Work on Search Agent and LLM post-training.
+    
+- **Research Intern**, THUIR, Department of Computer Science and Technology, Tsinghua University, 2025-Now
+  - Work on Information Retrieval. 
 
 - **Research Intern**, Wangxuan Institute of Computer Technology, Peking University, 2023
   - Work on Recommender Systems. 
 
 ---
 
-_Last updated: Jan. 2026_
+_Last updated: March 2026_
