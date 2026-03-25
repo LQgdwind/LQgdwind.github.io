@@ -99,7 +99,7 @@ Experience
   - Worked on Search Agents and LLM post-training.
 
 - 🏫 **Research Intern**
-  - THUIR, Department of Computer Science and Technology, Tsinghua University, 2025 ~ Now
+  - THUIR, Department of Computer Science and Technology, THU, 2025 ~ Now
   - Focusing on Information Retrieval.
   
 - 💬 **Research Collaborator (Joint Research Project)**
@@ -111,7 +111,7 @@ Experience
   - Worked on Recommender Systems.
 
 - 🏫 **Research Intern**
-  - Wangxuan Institute of Computer Technology, Peking University, 2023
+  - Wangxuan Institute of Computer Technology, PKU, 2023
   - Worked on Recommender Systems.
 
 ---
