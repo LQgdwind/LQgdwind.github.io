@@ -62,7 +62,7 @@ Selected Papers (First-Author)
   \[ [Paper](https://arxiv.org/pdf/2601.14949) | [Code](https://github.com/LQgdwind/CiteRAG) \]
   
 - **Audio-Visual World Models: Towards Multisensory Imagination in Sight and Sound**  
-  Jiahua Wang\*, **Leqi Zheng\***, Jialong Wu, Yaoxin Mao  
+  Jiahua Wang\*, Shannan Yan\*, **Leqi Zheng\***, Jialong Wu, Yaoxin Mao  
   \[ [Paper](https://www.arxiv.org/abs/2512.00883)\]
   
 - **Negative Feedback Really Matters: Signed Dual-Channel Graph Contrastive Learning Framework for Recommendation**  
