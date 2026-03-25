@@ -13,22 +13,19 @@ Research Interests
 ------
 
 **LLMs & Agentic Reinforcement Learning:** Focuses on empowering models to learn from interaction and trial-and-error in realistic, complex environments. This includes:
-* 🔍 **Search Agents**
-  
+
+* 🔍 **Search Agents**  
     Building autonomous search agents that navigate dynamic information environments to conduct deep research and execute long-horizon knowledge synthesis.
 
-* 💻 **Code Agents**
-  
+* 💻 **Code Agents**  
     Developing code agents that interact with software sandboxes and leverage reinforcement learning to solve complex engineering problems through trial-and-error.
 
 **Information Retrieval:** Exploring advanced retrieval pipelines to connect models and users with accurate, high-quality information. Key aspects include:
 
-* 📚 **Retrieval-Augmented Generation (RAG)**
-
+* 📚 **Retrieval-Augmented Generation (RAG)**  
     Designing retrieval and reranking pipelines to support LLMs with accurate and up-to-date external knowledge.
   
-* 🎯 **Recommender Systems (Recsys)**
-  
+* 🎯 **Recommender Systems (Recsys)**  
     Exploring retrieval and ranking methods in recommender systems, especially under sparse signals or long-term user feedback.
 
 I am also deeply interested in leveraging **Reinforcement Learning** to unlock the reasoning and decision-making capabilities of LLMs across diverse, interactive environments: from web navigation to software engineering. Ultimately, I aim to explore how agentic interaction and trial-and-error can feed back into training **stronger and more robust backbone models**. I look forward to collaborating and exchanging ideas with researchers in these exciting areas!
