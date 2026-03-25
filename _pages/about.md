@@ -27,8 +27,9 @@ My current and past research topics include:
 Education
 ------
 
-* **08.2024-present** M.S., Tsinghua University, China.
-* **10.2020-06.2024** B.S., Beijing Institute of Technology, China.
+* **08.2024-present** M.S., Software Engineering, Tsinghua University, China.
+
+* **10.2020-06.2024** B.S., Software Engineering, Beijing Institute of Technology, China.
 
 
 Models & Technical Reports
