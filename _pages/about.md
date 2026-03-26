@@ -34,9 +34,11 @@ I am also deeply interested in leveraging **Reinforcement Learning** to unlock t
 Education
 ------
 
-* **08.2024-present** M.S., Software Engineering, Tsinghua University, China.
+* **2024.08 ~ present**  
+  🎓 M.Phil, Software Engineering, Tsinghua University, China.
 
-* **10.2020-06.2024** B.S., Software Engineering, Beijing Institute of Technology, China.
+* **2020.10 ~ 2024.06**  
+  🎓 B.S., Software Engineering, Beijing Institute of Technology, China.
 
 
 Models & Technical Reports
