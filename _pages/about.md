@@ -1,4 +1,4 @@
----
+<img width="1665" height="612" alt="image" src="https://github.com/user-attachments/assets/003a3d4d-1e06-4f20-8dcc-f4a784aec1b6" />---
 permalink: /
 title: "About me"
 author_profile: true
@@ -89,8 +89,9 @@ Honors and Awards
 ------
 - **2025** &nbsp; Yang Huiyan Scholarship at Tsinghua University
 - **2024** &nbsp; Excellent Higher Education Graduate of Beijing Municipality  
-- **2023** &nbsp; China National Scholarship  
-- **2022** &nbsp; China National Scholarship  
+- **2023** &nbsp; China National Scholarship (Top 1%)  
+- **2022** &nbsp; China National Scholarship (Top 1%)
+- **2021** &nbsp; China National Scholarship (Top 1%)
 
 Experience
 ------
