@@ -105,9 +105,13 @@ Publications
 
 Models & Technical Reports
 ------
-- 🆉 **GLM-5.1: Towards Long-Horizon Tasks** GLM Team, Z.AI \[ [Blog](https://z.ai/blog/glm-5.1) | [Model Card](https://huggingface.co/zai-org/GLM-5.1)\]
+- 🆉 **GLM-5.1: Towards Long-Horizon Tasks**  
+  GLM Team, Z.AI  
+  \[ [Blog](https://z.ai/blog/glm-5.1) | [Model Card](https://huggingface.co/zai-org/GLM-5.1)\]
   
-- 💍 **Ring-2.5-1T** inclusionAI Team, Ant Group \[ [Blog](https://huggingface.co/inclusionAI/Ring-2.5-1T) | [Model Card](https://huggingface.co/inclusionAI/Ring-2.5-1T) \]
+- 💍 **Ring-2.5-1T**  
+  inclusionAI Team, Ant Group  
+  \[ [Blog](https://huggingface.co/inclusionAI/Ring-2.5-1T) | [Model Card](https://huggingface.co/inclusionAI/Ring-2.5-1T) \]
 
 
 Honors and Awards
