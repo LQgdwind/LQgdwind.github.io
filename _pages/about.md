@@ -43,13 +43,7 @@ Education
   🎓 B.S., Software Engineering, Beijing Institute of Technology, China.
 
 
-Models & Technical Reports
-------
-
-- 💍 **Ring-2.5-1T** inclusionAI Team, Ant Group \[ [Model Card](https://huggingface.co/inclusionAI/Ring-2.5-1T) \]
-
-
-Selected Papers (First-Author)
+Recent Papers
 ------
 
 - **SciLENS: RL-Driven Autonomous Agents for Scientific Localized Evidence Navigation and Synthesis**  
@@ -59,30 +53,61 @@ Selected Papers (First-Author)
 - **AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents**  
   Shannan Yan\*, Jingchen Ni\*, **Leqi Zheng\***, Jiajun Zhang, Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao  
   \[ [Paper](https://arxiv.org/abs/2603.16496)\]
+  
+- **Audio-Visual World Models: Towards Multisensory Imagination in Sight and Sound**  
+  Jiahua Wang\*, **Leqi Zheng\***, Jialong Wu, Yaoxin Mao  
+  \[ [Paper](https://www.arxiv.org/abs/2512.00883)\]
+
+
+Publications
+------
 
 - **What Should I Cite? A RAG Benchmark for Academic Citation Prediction**  
   **Leqi Zheng\***, Jiajun Zhang\*, Canzhi Chen\*, Chaokun Wang, Hongwei Li, Yuying Li, Yaoxin Mao, Shannan Yan, Zixin Song, Zhiyuan Feng, Zhaolu Kang, Zirong Chen, Hang Zhang, Qiang Liu, Liang Wang, Ziyang Liu  
-  _The Web Conf 2026_  
+  _The Web Conf 2026_  (CCF-A)
   \[ [Paper](https://arxiv.org/pdf/2601.14949) | [Code](https://github.com/LQgdwind/CiteRAG) \]
-  
-- **Audio-Visual World Models: Towards Multisensory Imagination in Sight and Sound**  
-  Jiahua Wang\*, Shannan Yan\*, **Leqi Zheng\***, Jialong Wu, Yaoxin Mao  
-  \[ [Paper](https://www.arxiv.org/abs/2512.00883)\]
   
 - **Negative Feedback Really Matters: Signed Dual-Channel Graph Contrastive Learning Framework for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Zixin Song, Cheng Wu, Shannan Yan, Jiajun Zhang, Ziyang Liu  
-  _NeurIPS 2025_  
+  _NeurIPS 2025_  (CCF-A)
   \[ [Paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/116921) | [Code](https://github.com/LQgdwind/nips25-sdcgcl) \]
   
 - **LAGCL4Rec: When LLMs Activate Interactions Potential in Graph Contrastive Learning for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Canzhi Chen, Jiajun Zhang, Cheng Wu, Zixin Song, Shannan Yan, Ziyang Liu, Hongwei Li  
-  _EMNLP 2025_  
+  _EMNLP 2025_  (CCF-B)
   \[ [Paper](https://aclanthology.org/2025.findings-emnlp.61/) | [Code](https://github.com/LQgdwind/emnlp25-lagcl4rec) \]
   
 - **Balancing Self-Presentation and Self-Hiding for Exposure-Aware Recommendation Based on Graph Contrastive Learning**  
   **Leqi Zheng**, Chaokun Wang, Ziyang Liu, Canzhi Chen, Cheng Wu, Hongwei Li  
-  _SIGIR 2025_  
+  _SIGIR 2025_  (CCF-A)
   \[ [Paper](https://dl.acm.org/doi/10.1145/3726302.3729900) | [Code](https://github.com/LQgdwind/sigir25-bph4rec) \]
+
+- **Learning Cross-View Object Correspondence via Cycle-Consistent Mask Prediction**  
+  Shannan Yan, **Leqi Zheng**, Keyu Lv, Jingchen Ni, Hongyang Wei, Jiajun Zhang, Guangting Wang, Jing Lyu, Chun Yuan, Fengyun Rao  
+  _CVPR 2026_ (CCF-A)  
+  \[ [Paper](https://arxiv.org/abs/2602.18996) | [Code](https://github.com/shannany0606/CCMP) \]
+  
+- **RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation**  
+  Jiajun Zhang, Yuying Li, Zhixun Li, Xingyu Guo, Jingzhuo Wu, **Leqi Zheng**, Yiran Yang, Jianke Zhang, Qingbin Li, Shannan Yan, Zhetong Li, Changguo Jia, Junfei Wu, Zilei Wang, Qiang Liu, Liang Wang  
+  _ACL 2026_  (CCF-A)  
+  \[ [Paper](https://arxiv.org/pdf/2603.25804) | [Code](https://huggingface.co/datasets/zjj1233/RealChart2Code) \]
+
+- **Seeing Across Views: Benchmarking Spatial Reasoning of Vision-Language Models in Robotic Scenes**  
+  Zhiyuan Feng, Zhaolu Kang, Qijie Wang, Zhiying Du, Jiongrui Yan, Shubin Shi, Chengbo Yuan, Huizhi Liang, Yu Deng, Qixiu Li, Rushuai Yang, Arctanx An, **Leqi Zheng**, Weijie Wang, Shawn Chen, Sicheng Xu, Yaobo Liang, Jiaolong Yang, Baining Guo  
+  _ICLR 2026_ (CCF-A)  
+  \[ [Paper](https://arxiv.org/pdf/2510.19400) | [Code](https://github.com/microsoft/MV-RoboBench) \]
+
+- **Training-free and Unbiased Graph Collaborative Filtering for Personalized Recommendations**  
+  Ziyang Liu, Chaokun Wang, Cheng Wu, **Leqi Zheng**, Hao Feng, Hang Zhang  
+  _IEEE Transactions on Knowledge and Data Engineering_ (CCF-A)  
+  \[ [Paper](https://ieeexplore.ieee.org/abstract/document/11419866/) | [Code](https://github.com/Young0222/FUGCF) \]
+
+
+Models & Technical Reports
+------
+- 🆉 **GLM-5.1: Towards Long-Horizon Tasks** GLM Team, Z.AI \[ [Blog](https://z.ai/blog/glm-5.1) | [Model Card](https://huggingface.co/zai-org/GLM-5.1)\]
+  
+- 💍 **Ring-2.5-1T** inclusionAI Team, Ant Group \[ [Blog](https://huggingface.co/inclusionAI/Ring-2.5-1T) | [Model Card](https://huggingface.co/inclusionAI/Ring-2.5-1T) \]
 
 
 Honors and Awards
