@@ -64,22 +64,22 @@ Publications
 
 - **What Should I Cite? A RAG Benchmark for Academic Citation Prediction**  
   **Leqi Zheng\***, Jiajun Zhang\*, Canzhi Chen\*, Chaokun Wang, Hongwei Li, Yuying Li, Yaoxin Mao, Shannan Yan, Zixin Song, Zhiyuan Feng, Zhaolu Kang, Zirong Chen, Hang Zhang, Qiang Liu, Liang Wang, Ziyang Liu  
-  _The Web Conf 2026_  (CCF-A)
+  _The Web Conf 2026_  (CCF-A)  
   \[ [Paper](https://arxiv.org/pdf/2601.14949) | [Code](https://github.com/LQgdwind/CiteRAG) \]
   
 - **Negative Feedback Really Matters: Signed Dual-Channel Graph Contrastive Learning Framework for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Zixin Song, Cheng Wu, Shannan Yan, Jiajun Zhang, Ziyang Liu  
-  _NeurIPS 2025_  (CCF-A)
+  _NeurIPS 2025_  (CCF-A)  
   \[ [Paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/116921) | [Code](https://github.com/LQgdwind/nips25-sdcgcl) \]
   
 - **LAGCL4Rec: When LLMs Activate Interactions Potential in Graph Contrastive Learning for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Canzhi Chen, Jiajun Zhang, Cheng Wu, Zixin Song, Shannan Yan, Ziyang Liu, Hongwei Li  
-  _EMNLP 2025_  (CCF-B)
+  _EMNLP 2025_  (CCF-B)  
   \[ [Paper](https://aclanthology.org/2025.findings-emnlp.61/) | [Code](https://github.com/LQgdwind/emnlp25-lagcl4rec) \]
   
 - **Balancing Self-Presentation and Self-Hiding for Exposure-Aware Recommendation Based on Graph Contrastive Learning**  
   **Leqi Zheng**, Chaokun Wang, Ziyang Liu, Canzhi Chen, Cheng Wu, Hongwei Li  
-  _SIGIR 2025_  (CCF-A)
+  _SIGIR 2025_  (CCF-A)  
   \[ [Paper](https://dl.acm.org/doi/10.1145/3726302.3729900) | [Code](https://github.com/LQgdwind/sigir25-bph4rec) \]
 
 - **Learning Cross-View Object Correspondence via Cycle-Consistent Mask Prediction**  
