@@ -47,16 +47,25 @@ Recent Papers
 ------
 
 - **SciLENS: RL-Driven Autonomous Agents for Scientific Localized Evidence Navigation and Synthesis**  
-  **Leqi Zheng\***, Jinbo Su\*, Haitao Li\*, Chaokun Wang, Jiajun Zhang, Shannan Yan, Zhaolu Kang, Rong Fu, Fang Niu, Hang Zhang  
+  **Leqi Zheng\***, Jinbo Su\*, Yuying Li\*, Chaokun Wang, Weiping Wang, Haitao Li, Jiajun Zhang, Shannan Yan, Zhaolu Kang, Rong Fu, Fang Niu, Hang Zhang  
+  [Paper]
+
+- **Gradients Know What Outcomes Don’t: Unlocking Reinforcement Learning for LLM Reasoning with Gradient-Aligned Rewards**  
+  **Leqi Zheng\***, Jinbo Su\*, Fang Niu\*, Chaokun Wang, Weiping Wang, Jiajun Zhang, Shannan Yan, Jie Wu, Zhaolu Kang, Rong Fu, Hang Zhang  
+  [Paper]
+
+- **Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation**  
+  Yuying Li\*, **Leqi Zheng\***, Yongzi Yu, Wenrui Zhou, Xuchang Zhong, Xing Hu, Jing Jin, Hangjie Yuan, Tao Feng  
   [Paper]
 
 - **AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents**  
   Shannan Yan\*, Jingchen Ni\*, **Leqi Zheng\***, Jiajun Zhang, Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao  
   \[ [Paper](https://arxiv.org/abs/2603.16496)\]
   
-- **Audio-Visual World Models: Towards Multisensory Imagination in Sight and Sound**  
-  Jiahua Wang\*, **Leqi Zheng\***, Jialong Wu, Yaoxin Mao  
+- **Audio-Visual World Models: Grounding Multisensory Imagination for Embodied Agents**  
+  Jiahua Wang\*, **Leqi Zheng\***, Jialong Wu, Yaoxin Mao, Shijie Cheng  
   \[ [Paper](https://www.arxiv.org/abs/2512.00883)\]
+
 
 
 Publications
@@ -74,7 +83,7 @@ Publications
   
 - **LAGCL4Rec: When LLMs Activate Interactions Potential in Graph Contrastive Learning for Recommendation**  
   **Leqi Zheng**, Chaokun Wang, Canzhi Chen, Jiajun Zhang, Cheng Wu, Zixin Song, Shannan Yan, Ziyang Liu, Hongwei Li  
-  _EMNLP 2025_  (CCF-B)  
+  _EMNLP 2025_  (TH-CPL-A)  
   \[ [Paper](https://aclanthology.org/2025.findings-emnlp.61/) | [Code](https://github.com/LQgdwind/emnlp25-lagcl4rec) \]
   
 - **Balancing Self-Presentation and Self-Hiding for Exposure-Aware Recommendation Based on Graph Contrastive Learning**  
@@ -112,6 +121,11 @@ Models & Technical Reports
 - 💍 **Ring-2.5-1T**  
   inclusionAI Team, Ant Group  
   \[ [Blog](https://huggingface.co/inclusionAI/Ring-2.5-1T) | [Model Card](https://huggingface.co/inclusionAI/Ring-2.5-1T) \]
+
+- 💍 **Ring-2.6-1T**  
+  inclusionAI Team, Ant Group  
+  \[ [Blog](https://huggingface.co/inclusionAI/Ring-2.6-1T) | [Model Card](https://huggingface.co/inclusionAI/Ring-2.6-1T) \]
+
 
 
 Honors and Awards
