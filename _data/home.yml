@@ -1,0 +1,210 @@
+hero:
+  kicker: "Agentic RL for Code · Long-horizon Coding · User Experience"
+  headline: "Building code agents that learn to"
+  headline_accent: "plan, execute, and improve."
+  summary: >-
+    I’m currently a research intern at Z.AI, where I build code agents for
+    complex, long-horizon software engineering tasks through interaction,
+    execution, and trial and error. I also study at Tsinghua University and
+    expect to graduate in summer 2027.
+  status: "Z.AI · Tsinghua University"
+  location: "Beijing, China"
+
+research:
+  - index: "01"
+    title: "Agentic RL for Code"
+    text: >-
+      Training code agents to improve through execution feedback and
+      trial-and-error in realistic software environments.
+    tags:
+      - Reinforcement learning
+      - Execution feedback
+  - index: "02"
+    title: "Long-horizon Coding"
+    text: >-
+      Building agents that plan, navigate large codebases, and complete
+      multi-step software tasks across extended trajectories.
+    tags:
+      - Repository-level coding
+      - Long-horizon tasks
+  - index: "03"
+    title: "User Experience"
+    text: >-
+      Designing code agents that understand user intent, communicate clearly,
+      and make complex engineering work more effective and accessible.
+    tags:
+      - Human-agent interaction
+      - User-centered design
+
+publications:
+  - title: "What Should I Cite? A RAG Benchmark for Academic Citation Prediction"
+    short_title: "CiteRAG"
+    venue: "The Web Conf"
+    year: "2026"
+    rank: "CCF-A"
+    featured: true
+    authors: >-
+      <strong>Leqi Zheng*</strong>, Jiajun Zhang*, Canzhi Chen*, Chaokun Wang,
+      Hongwei Li, Yuying Li, et al.
+    description: >-
+      A benchmark for evaluating whether retrieval-augmented systems can identify
+      the right academic evidence to cite.
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/pdf/2601.14949"
+      - label: "Code"
+        url: "https://github.com/LQgdwind/CiteRAG"
+  - title: "SciLENS: RL-Driven Autonomous Agents for Scientific Localized Evidence Navigation and Synthesis"
+    short_title: "SciLENS"
+    venue: "EMNLP"
+    year: "2026"
+    authors: "<strong>Leqi Zheng*</strong>, Jinbo Su*, Yuying Li*, et al."
+  - title: "Gradients Know What Outcomes Don’t: Unlocking Reinforcement Learning for LLM Reasoning with Gradient-Aligned Rewards"
+    short_title: "Gradient-Aligned Rewards"
+    venue: "EMNLP"
+    year: "2026"
+    authors: "<strong>Leqi Zheng*</strong>, Jinbo Su*, Fang Niu*, et al."
+  - title: "Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation"
+    short_title: "Filter, Then Reweight"
+    venue: "EMNLP"
+    year: "2026"
+    authors: "Yuying Li*, <strong>Leqi Zheng*</strong>, Yongzi Yu, et al."
+  - title: "Negative Feedback Really Matters: Signed Dual-Channel Graph Contrastive Learning Framework for Recommendation"
+    short_title: "SDCGCL"
+    venue: "NeurIPS"
+    year: "2025"
+    rank: "CCF-A"
+    authors: >-
+      <strong>Leqi Zheng</strong>, Chaokun Wang, Zixin Song, Cheng Wu,
+      Shannan Yan, Jiajun Zhang, Ziyang Liu
+    links:
+      - label: "Paper"
+        url: "https://neurips.cc/virtual/2025/loc/san-diego/poster/116921"
+      - label: "Code"
+        url: "https://github.com/LQgdwind/nips25-sdcgcl"
+  - title: "LAGCL4Rec: When LLMs Activate Interactions Potential in Graph Contrastive Learning for Recommendation"
+    short_title: "LAGCL4Rec"
+    venue: "EMNLP Findings"
+    year: "2025"
+    rank: "TH-CPL-A"
+    authors: >-
+      <strong>Leqi Zheng</strong>, Chaokun Wang, Canzhi Chen, Jiajun Zhang,
+      Cheng Wu, Zixin Song, et al.
+    links:
+      - label: "Paper"
+        url: "https://aclanthology.org/2025.findings-emnlp.61/"
+      - label: "Code"
+        url: "https://github.com/LQgdwind/emnlp25-lagcl4rec"
+  - title: "Balancing Self-Presentation and Self-Hiding for Exposure-Aware Recommendation Based on Graph Contrastive Learning"
+    short_title: "BPH4Rec"
+    venue: "SIGIR"
+    year: "2025"
+    rank: "CCF-A"
+    authors: >-
+      <strong>Leqi Zheng</strong>, Chaokun Wang, Ziyang Liu, Canzhi Chen,
+      Cheng Wu, Hongwei Li
+    links:
+      - label: "Paper"
+        url: "https://dl.acm.org/doi/10.1145/3726302.3729900"
+      - label: "Code"
+        url: "https://github.com/LQgdwind/sigir25-bph4rec"
+  - title: "Learning Cross-View Object Correspondence via Cycle-Consistent Mask Prediction"
+    short_title: "CCMP"
+    venue: "CVPR"
+    year: "2026"
+    rank: "CCF-A"
+    authors: >-
+      Shannan Yan, <strong>Leqi Zheng</strong>, Keyu Lv, Jingchen Ni,
+      Hongyang Wei, Jiajun Zhang, et al.
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2602.18996"
+      - label: "Code"
+        url: "https://github.com/shannany0606/CCMP"
+  - title: "RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation"
+    short_title: "RealChart2Code"
+    venue: "ACL"
+    year: "2026"
+    rank: "CCF-A"
+    authors: >-
+      Jiajun Zhang, Yuying Li, Zhixun Li, Xingyu Guo, Jingzhuo Wu,
+      <strong>Leqi Zheng</strong>, et al.
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/pdf/2603.25804"
+      - label: "Dataset"
+        url: "https://huggingface.co/datasets/zjj1233/RealChart2Code"
+  - title: "Seeing Across Views: Benchmarking Spatial Reasoning of Vision-Language Models in Robotic Scenes"
+    short_title: "MV-RoboBench"
+    venue: "ICLR"
+    year: "2026"
+    rank: "CCF-A"
+    authors: >-
+      Zhiyuan Feng, Zhaolu Kang, Qijie Wang, et al.,
+      <strong>Leqi Zheng</strong>, et al.
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/pdf/2510.19400"
+      - label: "Code"
+        url: "https://github.com/microsoft/MV-RoboBench"
+  - title: "Training-free and Unbiased Graph Collaborative Filtering for Personalized Recommendations"
+    short_title: "FUGCF"
+    venue: "IEEE TKDE"
+    year: "2026"
+    rank: "CCF-A"
+    authors: >-
+      Ziyang Liu, Chaokun Wang, Cheng Wu, <strong>Leqi Zheng</strong>,
+      Hao Feng, Hang Zhang
+    links:
+      - label: "Paper"
+        url: "https://ieeexplore.ieee.org/abstract/document/11419866/"
+      - label: "Code"
+        url: "https://github.com/Young0222/FUGCF"
+
+model_contributions:
+  - name: "GLM-5.2"
+    note: "Built for Long-Horizon Tasks"
+    team: "GLM Team · Z.AI"
+    url: "https://z.ai/blog/glm-5.2"
+  - name: "GLM-5.1"
+    note: "Towards Long-Horizon Tasks"
+    team: "GLM Team · Z.AI"
+    url: "https://z.ai/blog/glm-5.1"
+  - name: "GLM-5"
+    note: "From Vibe Coding to Agentic Engineering"
+    team: "GLM Team · Z.AI"
+    url: "https://z.ai/blog/glm-5"
+  - name: "Ring-2.5-1T"
+    note: "Large-scale foundation model"
+    team: "inclusionAI · Ant Group"
+    url: "https://huggingface.co/inclusionAI/Ring-2.5-1T"
+
+experience:
+  - period: "2026 - Now"
+    organization: "Z.AI"
+    role: "Research Intern"
+    focus: "Code Agents & LLM Post-training"
+  - period: "2025"
+    organization: "Ant Group"
+    role: "Research Intern"
+    focus: "Search Agents & LLM Post-training"
+  - period: "2025"
+    organization: "Sina Weibo"
+    role: "Research Intern"
+    focus: "LLMs & Information Retrieval"
+  - period: "2024"
+    organization: "JD.com"
+    role: "Research Intern"
+    focus: "Recommender Systems"
+
+
+awards:
+  - year: "2025"
+    title: "Yang Huiyan Scholarship"
+    detail: "Tsinghua University"
+  - year: "2024"
+    title: "Excellent Higher Education Graduate"
+    detail: "Beijing Municipality"
+  - year: "2021 — 2023"
+    title: "China National Scholarship"
+    detail: "Three consecutive years · Top 1%"
