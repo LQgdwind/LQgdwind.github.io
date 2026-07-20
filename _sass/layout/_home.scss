@@ -332,34 +332,41 @@ $academic-transition: 160ms ease;
 
 /* Models, experience, and awards */
 .academic-models {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0 2rem;
   border-top: 1px solid var(--academic-border);
 }
 
 .academic-models a {
   display: grid;
-  grid-template-columns: 100px 1fr auto;
-  gap: 1rem;
-  align-items: center;
-  padding: 1rem 0;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: 1.5rem;
+  padding: 1.25rem 0;
   border-bottom: 1px solid var(--academic-border);
-  font-size: 0.82rem;
 }
 
 .academic-models a:hover {
   text-decoration: none;
 }
 
-.academic-models span {
+.academic-models__name {
+  color: var(--academic-link);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.academic-models__content {
+  display: flex;
+  flex-direction: column;
   color: var(--academic-text);
 }
 
-.academic-models small {
+.academic-models__content strong {
+  font-size: 0.9rem;
+}
+
+.academic-models__content small {
+  margin-top: 0.25rem;
   color: var(--academic-muted);
-  font-size: 0.72rem;
-  text-align: right;
+  font-size: 0.75rem;
 }
 
 .academic-history {
@@ -433,10 +440,6 @@ $academic-transition: 160ms ease;
     grid-template-columns: 1fr;
   }
 
-  .academic-models {
-    grid-template-columns: 1fr;
-  }
-
   .academic-history {
     grid-template-columns: 1fr;
   }
@@ -507,11 +510,8 @@ $academic-transition: 160ms ease;
   }
 
   .academic-models a {
-    grid-template-columns: 85px 1fr;
-  }
-
-  .academic-models small {
-    display: none;
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
   }
 
   .academic-footer__inner {

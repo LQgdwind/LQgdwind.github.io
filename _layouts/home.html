@@ -64,6 +64,23 @@ layout: compress
         </div>
       </section>
 
+      <section class="academic-container academic-section" aria-labelledby="models-title">
+        <div class="academic-section__heading">
+          <h2 id="models-title">Model Contributions</h2>
+        </div>
+        <div class="academic-models">
+          {% for model in home.model_contributions %}
+            <a href="{{ model.url }}" target="_blank" rel="noopener">
+              <span class="academic-models__name">{{ model.name }}</span>
+              <span class="academic-models__content">
+                <strong>{{ model.note }}</strong>
+                <small>{{ model.team }}</small>
+              </span>
+            </a>
+          {% endfor %}
+        </div>
+      </section>
+
       <section class="academic-container academic-section" id="publications">
         <div class="academic-section__heading">
           <h2>Selected Publications</h2>
@@ -90,23 +107,6 @@ layout: compress
               </div>
             </article>
           {% endfor %}
-        </div>
-      </section>
-
-      <section class="academic-section academic-section--tinted" aria-labelledby="models-title">
-        <div class="academic-container">
-          <div class="academic-section__heading">
-            <h2 id="models-title">Model Contributions</h2>
-          </div>
-          <div class="academic-models">
-            {% for model in home.model_contributions %}
-              <a href="{{ model.url }}" target="_blank" rel="noopener">
-                <strong>{{ model.name }}</strong>
-                <span>{{ model.note }}</span>
-                <small>{{ model.team }}</small>
-              </a>
-            {% endfor %}
-          </div>
         </div>
       </section>
 
