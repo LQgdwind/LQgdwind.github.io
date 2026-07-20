@@ -1,7 +1,5 @@
 hero:
   kicker: "Agentic RL for Code · Long-horizon Coding · User Experience"
-  headline: "Building code agents that learn to"
-  headline_accent: "plan, execute, and improve."
   summary: >-
     I’m currently a research intern at Z.AI, where I build code agents for
     complex, long-horizon software engineering tasks through interaction,

@@ -8,255 +8,149 @@ layout: compress
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
-    <script>
-      const homeTheme = localStorage.getItem("theme");
-      const homeSystemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-      if (homeTheme === "dark" || (!homeTheme && homeSystemDark)) {
-        document.documentElement.setAttribute("data-theme", "dark");
-      }
-    </script>
     {% include head.html %}
     {% include head/custom.html %}
     <link rel="stylesheet" href="{{ base_path }}/assets/css/home.css">
-    <link rel="preload" as="image" href="{{ base_path }}/images/zlq.png">
   </head>
 
-  <body class="home-page">
+  <body class="academic-page">
     {% include browser-upgrade.html %}
-    <a class="home-skip-link" href="#main-content">Skip to content</a>
+    <a class="academic-skip-link" href="#main-content">Skip to content</a>
 
-    <header class="home-header" data-home-header>
-      <a class="home-brand" href="#top" aria-label="Leqi Zheng, home">
-        <span class="home-brand__mark" aria-hidden="true">LQ</span>
-        <span class="home-brand__name">
-          <strong>Leqi Zheng</strong>
-          <small>郑乐祺</small>
-        </span>
-      </a>
-
-      <nav class="home-nav" aria-label="Primary navigation" data-home-nav>
-        <a href="#research">Research</a>
-        <a href="#work">Work</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-      </nav>
-
-      <div class="home-header__actions">
-        <button class="home-theme-toggle" type="button" aria-label="Toggle color theme" data-theme-toggle>
-          <span class="home-theme-toggle__sun" aria-hidden="true">☼</span>
-          <span class="home-theme-toggle__moon" aria-hidden="true">☾</span>
-        </button>
-        <button class="home-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-toggle>
-          <span></span>
-          <span></span>
-        </button>
+    <header class="academic-header">
+      <div class="academic-container academic-header__inner">
+        <a class="academic-brand" href="#top">Leqi Zheng <span>郑乐祺</span></a>
+        <nav class="academic-nav" aria-label="Primary navigation">
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </div>
     </header>
 
     <main id="main-content">
-      <section class="home-hero" id="top">
-        <div class="home-hero__copy">
-          <p class="home-eyebrow">{{ home.hero.kicker }}</p>
-          <h1>
-            {{ home.hero.headline }}
-            <em>{{ home.hero.headline_accent }}</em>
-          </h1>
-          <p class="home-hero__summary">{{ home.hero.summary }}</p>
-
-          <div class="home-hero__actions">
-            <a class="home-button home-button--primary" href="mailto:{{ site.author.email }}">
-              Start a conversation <span aria-hidden="true">↗</span>
-            </a>
-            <a class="home-button home-button--text" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
-              Google Scholar <span aria-hidden="true">↗</span>
-            </a>
-          </div>
-
-          <dl class="home-hero__facts">
-            <div>
-              <dt>Currently</dt>
-              <dd>{{ home.hero.status }}</dd>
-            </div>
-            <div>
-              <dt>Based in</dt>
-              <dd>{{ home.hero.location }}</dd>
-            </div>
-          </dl>
-        </div>
-
-        <div class="home-portrait-wrap" aria-label="Portrait of Leqi Zheng">
-          <div class="home-portrait__index" aria-hidden="true">01 / 04</div>
-          <div class="home-portrait__monogram" aria-hidden="true">LQ</div>
-          <figure class="home-portrait">
-            <img src="{{ base_path }}/images/zlq.png" alt="Leqi Zheng" width="472" height="591">
-            <figcaption>
-              <span>Leqi Zheng / 郑乐祺</span>
-              <span>Researcher · 2026</span>
-            </figcaption>
-          </figure>
-          <div class="home-portrait__badge">
-            <span aria-hidden="true"></span>
-            Open to collaboration
+      <section class="academic-container academic-intro" id="top">
+        <img class="academic-intro__photo" src="{{ base_path }}/images/zlq.png" alt="Leqi Zheng" width="472" height="591">
+        <div class="academic-intro__content">
+          <h1>Leqi Zheng <span>郑乐祺</span></h1>
+          <p class="academic-intro__affiliation">{{ home.hero.status }} · {{ home.hero.location }}</p>
+          <p class="academic-intro__focus">{{ home.hero.kicker }}</p>
+          <p class="academic-intro__summary">{{ home.hero.summary }}</p>
+          <div class="academic-links" aria-label="Profile links">
+            <a href="mailto:{{ site.author.email }}">Email</a>
+            <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="https://github.com/LQgdwind" target="_blank" rel="noopener">GitHub</a>
+            <a href="{{ site.author.orcid }}" target="_blank" rel="noopener">ORCID</a>
           </div>
         </div>
       </section>
 
-      <div class="home-signal" aria-label="Current research themes">
-        <span>Agentic RL for Code</span>
-        <span aria-hidden="true">✦</span>
-        <span>Long-horizon Coding</span>
-        <span aria-hidden="true">✦</span>
-        <span>User Experience</span>
-      </div>
-
-      <section class="home-section home-section--ink" id="research">
-        <div class="home-section__heading reveal">
-          <p class="home-eyebrow">Research / What I care about</p>
-          <h2>From interaction<br>to intelligence.</h2>
-          <p>
-            I study how code agents learn from execution, work reliably over
-            long trajectories, and collaborate naturally with people.
-          </p>
-        </div>
-
-        <div class="home-research-grid">
-          {% for item in home.research %}
-            <article class="home-research-card reveal">
-              <span class="home-research-card__index">{{ item.index }}</span>
-              <h3>{{ item.title }}</h3>
-              <p>{{ item.text }}</p>
-              <ul aria-label="Topics">
-                {% for tag in item.tags %}
-                  <li>{{ tag }}</li>
-                {% endfor %}
-              </ul>
-            </article>
-          {% endfor %}
+      <section class="academic-section academic-section--tinted" id="research">
+        <div class="academic-container">
+          <div class="academic-section__heading">
+            <h2>Research Interests</h2>
+            <p>I work on code agents that learn from execution, operate over long horizons, and collaborate effectively with people.</p>
+          </div>
+          <div class="academic-research-grid">
+            {% for item in home.research %}
+              <article class="academic-research-item">
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.text }}</p>
+                <p class="academic-research-item__tags">{{ item.tags | join: " · " }}</p>
+              </article>
+            {% endfor %}
+          </div>
         </div>
       </section>
 
-      <section class="home-section home-section--work" id="work">
-        <div class="home-section__heading home-section__heading--row reveal">
-          <div>
-            <p class="home-eyebrow">Selected work / 2025—2026</p>
-            <h2>Research,<br>shipped.</h2>
-          </div>
-          <a class="home-text-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">
-            Full publication record <span aria-hidden="true">↗</span>
-          </a>
+      <section class="academic-container academic-section" id="publications">
+        <div class="academic-section__heading">
+          <h2>Selected Publications</h2>
+          <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">View all on Google Scholar →</a>
         </div>
-
-        <div class="home-publication-grid">
+        <div class="academic-publications">
           {% for paper in home.publications %}
-            <article class="home-publication-card{% if paper.featured %} home-publication-card--featured{% endif %} reveal">
-              <div class="home-publication-card__topline">
-                <span>{{ paper.venue }} · {{ paper.year }}</span>
-                {% if paper.rank %}<span>{{ paper.rank }}</span>{% endif %}
+            <article class="academic-publication">
+              <div class="academic-publication__venue">
+                <strong>{{ paper.venue }}</strong>
+                <span>{{ paper.year }}</span>
               </div>
-              <p class="home-publication-card__short">{{ paper.short_title }}</p>
-              <h3>{{ paper.title }}</h3>
-              {% if paper.description %}
-                <p class="home-publication-card__description">{{ paper.description }}</p>
-              {% endif %}
-              <p class="home-publication-card__authors">{{ paper.authors }}</p>
-              {% if paper.links %}
-                <div class="home-publication-card__links">
-                  {% for link in paper.links %}
-                    <a href="{{ link.url }}" target="_blank" rel="noopener">
-                      {{ link.label }} <span aria-hidden="true">↗</span>
-                    </a>
-                  {% endfor %}
-                </div>
-              {% endif %}
+              <div class="academic-publication__content">
+                <h3>{{ paper.title }}</h3>
+                <p class="academic-publication__authors">{{ paper.authors }}</p>
+                {% if paper.description %}<p>{{ paper.description }}</p>{% endif %}
+                {% if paper.links %}
+                  <div class="academic-publication__links">
+                    {% for link in paper.links %}
+                      <a href="{{ link.url }}" target="_blank" rel="noopener">[{{ link.label }}]</a>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </div>
             </article>
           {% endfor %}
         </div>
+      </section>
 
-        <div class="home-models reveal">
-          <div class="home-models__intro">
-            <p class="home-eyebrow">Model contributions</p>
-            <h3>Beyond papers.</h3>
+      <section class="academic-section academic-section--tinted" aria-labelledby="models-title">
+        <div class="academic-container">
+          <div class="academic-section__heading">
+            <h2 id="models-title">Model Contributions</h2>
           </div>
-          <div class="home-models__list">
+          <div class="academic-models">
             {% for model in home.model_contributions %}
               <a href="{{ model.url }}" target="_blank" rel="noopener">
-                <span>
-                  <strong>{{ model.name }}</strong>
-                  <small>{{ model.note }}</small>
-                </span>
-                <span>
-                  {{ model.team }}
-                  <i aria-hidden="true">↗</i>
-                </span>
+                <strong>{{ model.name }}</strong>
+                <span>{{ model.note }}</span>
+                <small>{{ model.team }}</small>
               </a>
             {% endfor %}
           </div>
         </div>
       </section>
 
-      <section class="home-section home-section--experience" id="experience">
-        <div class="home-section__heading reveal">
-          <p class="home-eyebrow">Experience / Field notes</p>
-          <h2>Where I’ve<br>been building.</h2>
-        </div>
-
-        <div class="home-history">
-          <div class="home-timeline">
+      <section class="academic-container academic-section academic-history" id="experience">
+        <div>
+          <h2>Experience</h2>
+          <div class="academic-history__list">
             {% for item in home.experience %}
-              <article class="home-timeline__item reveal">
-                <time>{{ item.period }}</time>
+              <article>
                 <div>
                   <h3>{{ item.organization }}</h3>
-                  <p>{{ item.role }}</p>
+                  <p>{{ item.role }} · {{ item.focus }}</p>
                 </div>
-                <span>{{ item.focus }}</span>
+                <time>{{ item.period }}</time>
               </article>
             {% endfor %}
           </div>
-
-          <aside class="home-history__aside">
-            <div class="home-aside-block reveal">
-              <p class="home-eyebrow">Recognition</p>
-              {% for item in home.awards %}
-                <article>
-                  <span>{{ item.year }}</span>
+        </div>
+        <div>
+          <h2>Honors & Awards</h2>
+          <div class="academic-history__list">
+            {% for item in home.awards %}
+              <article>
+                <div>
                   <h3>{{ item.title }}</h3>
                   <p>{{ item.detail }}</p>
-                </article>
-              {% endfor %}
-            </div>
-          </aside>
-        </div>
-      </section>
-
-      <section class="home-contact" id="contact">
-        <div class="home-contact__orb" aria-hidden="true"></div>
-        <p class="home-eyebrow reveal">Contact / Let’s talk</p>
-        <div class="home-contact__content reveal">
-          <h2>Have a problem<br>worth an <em>agent?</em></h2>
-          <div>
-            <p>
-              I’m always happy to exchange ideas and explore collaborations in
-              code agents and autonomous software engineering.
-            </p>
-            <a class="home-button home-button--light" href="mailto:{{ site.author.email }}">
-              {{ site.author.email }} <span aria-hidden="true">↗</span>
-            </a>
+                </div>
+                <time>{{ item.year }}</time>
+              </article>
+            {% endfor %}
           </div>
         </div>
-
-        <footer class="home-footer">
-          <div class="home-footer__links">
-            <a href="https://github.com/LQgdwind" target="_blank" rel="noopener">GitHub ↗</a>
-            <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Scholar ↗</a>
-            <a href="{{ site.author.orcid }}" target="_blank" rel="noopener">ORCID ↗</a>
-          </div>
-          <p>© <span data-current-year>{{ site.time | date: '%Y' }}</span> Leqi Zheng</p>
-          <a href="#top">Back to top ↑</a>
-        </footer>
       </section>
     </main>
 
-    <script src="{{ base_path }}/assets/js/home.js" defer></script>
+    <footer class="academic-footer" id="contact">
+      <div class="academic-container academic-footer__inner">
+        <div>
+          <h2>Contact</h2>
+          <p>For research discussions or collaborations, please feel free to reach out.</p>
+          <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        </div>
+        <p>© {{ site.time | date: '%Y' }} Leqi Zheng</p>
+      </div>
+    </footer>
   </body>
 </html>
