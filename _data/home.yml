@@ -35,6 +35,17 @@ research:
       - User-centered design
 
 publications:
+  - title: "AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents"
+    short_title: "AdaMem"
+    venue: "EMNLP"
+    year: "2026"
+    status: "Under Review"
+    authors: >-
+      Shannan Yan*, Jingchen Ni*, <strong>Leqi Zheng*</strong>, Jiajun Zhang,
+      Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/pdf/2603.16496"
   - title: "Audio-Visual World Models: Grounding Multisensory Imagination for Embodied Agents"
     short_title: "Audio-Visual World Models"
     venue: "AAAI"
@@ -46,31 +57,37 @@ publications:
     links:
       - label: "Paper"
         url: "https://arxiv.org/pdf/2512.00883"
-  - title: "AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents"
-    short_title: "AdaMem"
+  - title: "Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation"
+    short_title: "FiRe-OPD"
     venue: "EMNLP"
     year: "2026"
-    authors: >-
-      Shannan Yan*, Jingchen Ni*, <strong>Leqi Zheng*</strong>, Jiajun Zhang,
-      Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao
+    status: "Under Review"
+    authors: "Yuying Li*, <strong>Leqi Zheng*</strong>, Yongzi Yu, et al."
     links:
       - label: "Paper"
-        url: "https://arxiv.org/pdf/2603.16496"
+        url: "https://arxiv.org/pdf/2606.02684"
+      - label: "Code"
+        url: "https://github.com/YuYingLi0/FiRe-OPD"
   - title: "SciLENS: RL-Driven Autonomous Agents for Scientific Localized Evidence Navigation and Synthesis"
     short_title: "SciLENS"
     venue: "EMNLP"
     year: "2026"
     authors: "<strong>Leqi Zheng*</strong>, Jinbo Su*, Yuying Li*, et al."
+    links:
+      - label: "Paper"
+        url: "https://github.com/LQgdwind/SciLENS"
+      - label: "Code"
+        url: "https://github.com/LQgdwind/SciLENS"
   - title: "Gradients Know What Outcomes Don’t: Unlocking Reinforcement Learning for LLM Reasoning with Gradient-Aligned Rewards"
     short_title: "Gradient-Aligned Rewards"
     venue: "EMNLP"
     year: "2026"
     authors: "<strong>Leqi Zheng*</strong>, Jinbo Su*, Fang Niu*, et al."
-  - title: "Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation"
-    short_title: "Filter, Then Reweight"
-    venue: "EMNLP"
-    year: "2026"
-    authors: "Yuying Li*, <strong>Leqi Zheng*</strong>, Yongzi Yu, et al."
+    links:
+      - label: "Paper"
+        url: "https://github.com/LQgdwind/GAR"
+      - label: "Code"
+        url: "https://github.com/LQgdwind/GAR"
   - title: "What Should I Cite? A RAG Benchmark for Academic Citation Prediction"
     short_title: "CiteRAG"
     venue: "The Web Conf"
@@ -80,9 +97,6 @@ publications:
     authors: >-
       <strong>Leqi Zheng*</strong>, Jiajun Zhang*, Canzhi Chen*, Chaokun Wang,
       Hongwei Li, Yuying Li, et al.
-    description: >-
-      A benchmark for evaluating whether retrieval-augmented systems can identify
-      the right academic evidence to cite.
     links:
       - label: "Paper"
         url: "https://arxiv.org/pdf/2601.14949"
@@ -133,53 +147,13 @@ publications:
     year: "2026"
     rank: "CCF-A"
     authors: >-
-      Shannan Yan, <strong>Leqi Zheng</strong>, Keyu Lv, Jingchen Ni,
+      Shannan Yan*, <strong>Leqi Zheng*</strong>, Keyu Lv, Jingchen Ni,
       Hongyang Wei, Jiajun Zhang, et al.
     links:
       - label: "Paper"
         url: "https://arxiv.org/abs/2602.18996"
       - label: "Code"
         url: "https://github.com/shannany0606/CCMP"
-  - title: "RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation"
-    short_title: "RealChart2Code"
-    venue: "ACL"
-    year: "2026"
-    rank: "CCF-A"
-    authors: >-
-      Jiajun Zhang, Yuying Li, Zhixun Li, Xingyu Guo, Jingzhuo Wu,
-      <strong>Leqi Zheng</strong>, et al.
-    links:
-      - label: "Paper"
-        url: "https://arxiv.org/pdf/2603.25804"
-      - label: "Dataset"
-        url: "https://huggingface.co/datasets/zjj1233/RealChart2Code"
-  - title: "Seeing Across Views: Benchmarking Spatial Reasoning of Vision-Language Models in Robotic Scenes"
-    short_title: "MV-RoboBench"
-    venue: "ICLR"
-    year: "2026"
-    rank: "CCF-A"
-    authors: >-
-      Zhiyuan Feng, Zhaolu Kang, Qijie Wang, et al.,
-      <strong>Leqi Zheng</strong>, et al.
-    links:
-      - label: "Paper"
-        url: "https://arxiv.org/pdf/2510.19400"
-      - label: "Code"
-        url: "https://github.com/microsoft/MV-RoboBench"
-  - title: "Training-free and Unbiased Graph Collaborative Filtering for Personalized Recommendations"
-    short_title: "FUGCF"
-    venue: "IEEE TKDE"
-    year: "2026"
-    rank: "CCF-A"
-    authors: >-
-      Ziyang Liu, Chaokun Wang, Cheng Wu, <strong>Leqi Zheng</strong>,
-      Hao Feng, Hang Zhang
-    links:
-      - label: "Paper"
-        url: "https://ieeexplore.ieee.org/abstract/document/11419866/"
-      - label: "Code"
-        url: "https://github.com/Young0222/FUGCF"
-
 model_contributions:
   - name: "GLM-5.2"
     note: "Built for Long-Horizon Tasks"
