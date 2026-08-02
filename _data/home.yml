@@ -35,6 +35,27 @@ research:
       - User-centered design
 
 publications:
+  - title: "Audio-Visual World Models: Grounding Multisensory Imagination for Embodied Agents"
+    short_title: "Audio-Visual World Models"
+    venue: "AAAI"
+    year: "2027"
+    status: "Under Review"
+    authors: >-
+      Jiahua Wang*, <strong>Leqi Zheng*</strong>, Jialong Wu, Yaoxin Mao,
+      Shijie Cheng
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/pdf/2512.00883"
+  - title: "AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents"
+    short_title: "AdaMem"
+    venue: "EMNLP"
+    year: "2026"
+    authors: >-
+      Shannan Yan*, Jingchen Ni*, <strong>Leqi Zheng*</strong>, Jiajun Zhang,
+      Peixi Wu, Dacheng Yin, Jing Lyu, Chun Yuan, Fengyun Rao
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/pdf/2603.16496"
   - title: "SciLENS: RL-Driven Autonomous Agents for Scientific Localized Evidence Navigation and Synthesis"
     short_title: "SciLENS"
     venue: "EMNLP"

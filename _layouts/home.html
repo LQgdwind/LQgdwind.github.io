@@ -19,7 +19,7 @@ layout: compress
 
     <header class="academic-header">
       <div class="academic-container academic-header__inner">
-        <a class="academic-brand" href="#top">Leqi Zheng <span>郑乐祺</span></a>
+        <a class="academic-brand" href="#top">Leqi Zheng <span>(郑乐祺)</span></a>
         <nav class="academic-nav" aria-label="Primary navigation">
           <a href="#research">Research</a>
           <a href="#publications">Publications</a>
@@ -33,7 +33,7 @@ layout: compress
       <section class="academic-container academic-intro" id="top">
         <img class="academic-intro__photo" src="{{ base_path }}/images/zlq.png" alt="Leqi Zheng" width="472" height="591">
         <div class="academic-intro__content">
-          <h1>Leqi Zheng <span>郑乐祺</span></h1>
+          <h1>Leqi Zheng <span>(郑乐祺)</span></h1>
           <p class="academic-intro__affiliation">{{ home.hero.status }} · {{ home.hero.location }}</p>
           <p class="academic-intro__focus">{{ home.hero.kicker }}</p>
           <p class="academic-intro__summary">{{ home.hero.summary }}</p>
@@ -91,7 +91,7 @@ layout: compress
             <article class="academic-publication">
               <div class="academic-publication__venue">
                 <strong>{{ paper.venue }}</strong>
-                <span>{{ paper.year }}</span>
+                <span>{{ paper.year }}{% if paper.status %} · {{ paper.status }}{% endif %}</span>
               </div>
               <div class="academic-publication__content">
                 <h3>{{ paper.title }}</h3>
