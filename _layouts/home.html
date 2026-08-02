@@ -90,8 +90,8 @@ layout: compress
           {% for paper in home.publications %}
             <article class="academic-publication">
               <div class="academic-publication__venue">
-                <strong>{{ paper.venue }}</strong>
-                <span>{{ paper.year }}{% if paper.status %} · {{ paper.status }}{% endif %}</span>
+                <strong>{{ paper.status | default: paper.venue }}</strong>
+                {% unless paper.status %}<span>{{ paper.year }}</span>{% endunless %}
               </div>
               <div class="academic-publication__content">
                 <h3>{{ paper.title }}</h3>

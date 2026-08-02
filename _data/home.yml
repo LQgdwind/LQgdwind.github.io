@@ -37,8 +37,6 @@ research:
 publications:
   - title: "AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents"
     short_title: "AdaMem"
-    venue: "EMNLP"
-    year: "2026"
     status: "Under Review"
     authors: >-
       Shannan Yan*, Jingchen Ni*, <strong>Leqi Zheng*</strong>, Jiajun Zhang,
@@ -48,8 +46,6 @@ publications:
         url: "https://arxiv.org/pdf/2603.16496"
   - title: "Audio-Visual World Models: Grounding Multisensory Imagination for Embodied Agents"
     short_title: "Audio-Visual World Models"
-    venue: "AAAI"
-    year: "2027"
     status: "Under Review"
     authors: >-
       Jiahua Wang*, <strong>Leqi Zheng*</strong>, Jialong Wu, Yaoxin Mao,
@@ -59,8 +55,6 @@ publications:
         url: "https://arxiv.org/pdf/2512.00883"
   - title: "Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation"
     short_title: "FiRe-OPD"
-    venue: "EMNLP"
-    year: "2026"
     status: "Under Review"
     authors: "Yuying Li*, <strong>Leqi Zheng*</strong>, Yongzi Yu, et al."
     links:
@@ -147,7 +141,7 @@ publications:
     year: "2026"
     rank: "CCF-A"
     authors: >-
-      Shannan Yan*, <strong>Leqi Zheng*</strong>, Keyu Lv, Jingchen Ni,
+      Shannan Yan, <strong>Leqi Zheng</strong>, Keyu Lv, Jingchen Ni,
       Hongyang Wei, Jiajun Zhang, et al.
     links:
       - label: "Paper"
