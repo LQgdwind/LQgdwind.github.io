@@ -1,11 +1,12 @@
 hero:
   kicker: "Agentic RL for Code · Long-horizon Coding · User Experience"
   summary: >-
-    I’m currently a research intern at Z.AI, where I build code agents for
+    I’m currently a Researcher at Alibaba Qwen, where I build code agents for
     complex, long-horizon software engineering tasks through interaction,
     execution, and trial and error. I also study at Tsinghua University and
-    expect to graduate in summer 2027.
-  status: "Z.AI · Tsinghua University"
+    expect to graduate in summer 2027. Before joining Qwen, I was a Research
+    Intern at Zhipu.AI.
+  status: "Alibaba Qwen · Tsinghua University"
   location: "Beijing, China"
 
 research:
@@ -149,17 +150,21 @@ publications:
       - label: "Code"
         url: "https://github.com/shannany0606/CCMP"
 model_contributions:
+  - name: "GLM-5.3"
+    note: "Frontier Coding with Emergent Cyber Capabilities"
+    team: "GLM Team · Zhipu.AI"
+    url: "https://z.ai/blog/glm-5.3"
   - name: "GLM-5.2"
     note: "Built for Long-Horizon Tasks"
-    team: "GLM Team · Z.AI"
+    team: "GLM Team · Zhipu.AI"
     url: "https://z.ai/blog/glm-5.2"
   - name: "GLM-5.1"
     note: "Towards Long-Horizon Tasks"
-    team: "GLM Team · Z.AI"
+    team: "GLM Team · Zhipu.AI"
     url: "https://z.ai/blog/glm-5.1"
   - name: "GLM-5"
     note: "From Vibe Coding to Agentic Engineering"
-    team: "GLM Team · Z.AI"
+    team: "GLM Team · Zhipu.AI"
     url: "https://z.ai/blog/glm-5"
   - name: "Ring-2.5-1T"
     note: "Large-scale foundation model"
@@ -168,7 +173,11 @@ model_contributions:
 
 experience:
   - period: "2026 - Now"
-    organization: "Z.AI"
+    organization: "Alibaba Qwen"
+    role: "Researcher"
+    focus: "Code Agents & LLM Post-training"
+  - period: "2026"
+    organization: "Zhipu.AI"
     role: "Research Intern"
     focus: "Code Agents & LLM Post-training"
   - period: "2025"
