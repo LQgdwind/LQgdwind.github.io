@@ -65,7 +65,7 @@ publications:
         url: "https://github.com/YuYingLi0/FiRe-OPD"
   - title: "SciLENS: RL-Driven Autonomous Agents for Scientific Localized Evidence Navigation and Synthesis"
     short_title: "SciLENS"
-    venue: "EMNLP"
+    venue: "EMNLP Main Conference"
     year: "2026"
     authors: "<strong>Leqi Zheng*</strong>, Jinbo Su*, Yuying Li*, et al."
     links:
@@ -75,7 +75,7 @@ publications:
         url: "https://github.com/LQgdwind/SciLENS"
   - title: "Gradients Know What Outcomes Don’t: Unlocking Reinforcement Learning for LLM Reasoning with Gradient-Aligned Rewards"
     short_title: "Gradient-Aligned Rewards"
-    venue: "EMNLP"
+    venue: "EMNLP Main Conference"
     year: "2026"
     authors: "<strong>Leqi Zheng*</strong>, Jinbo Su*, Fang Niu*, et al."
     links:
@@ -112,7 +112,7 @@ publications:
         url: "https://github.com/LQgdwind/nips25-sdcgcl"
   - title: "LAGCL4Rec: When LLMs Activate Interactions Potential in Graph Contrastive Learning for Recommendation"
     short_title: "LAGCL4Rec"
-    venue: "EMNLP"
+    venue: "EMNLP Findings"
     year: "2025"
     rank: "TH-CPL-A"
     authors: >-
