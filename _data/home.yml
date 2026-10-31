@@ -144,19 +144,6 @@ publications:
         url: "https://dl.acm.org/doi/10.1145/3726302.3729900"
       - label: "Code"
         url: "https://github.com/LQgdwind/sigir25-bph4rec"
-  - title: "Learning Cross-View Object Correspondence via Cycle-Consistent Mask Prediction"
-    short_title: "CCMP"
-    venue: "CVPR"
-    year: "2026"
-    rank: "CCF-A"
-    authors: >-
-      Shannan Yan, <strong>Leqi Zheng</strong>, Keyu Lv, Jingchen Ni,
-      Hongyang Wei, Jiajun Zhang, et al.
-    links:
-      - label: "Paper"
-        url: "https://arxiv.org/abs/2602.18996"
-      - label: "Code"
-        url: "https://github.com/shannany0606/CCMP"
 model_contributions:
   - name: "Qwen-3.8-Max"
     note: "Qwen3.8-Max: A New Bar for Coding and Cowork"
