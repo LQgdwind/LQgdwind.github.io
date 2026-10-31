@@ -36,6 +36,14 @@ research:
       - User-centered design
 
 publications:
+  - title: "Remembering What Changes the Future: Learning to Compress Agent Histories for Long-Horizon Tasks"
+    short_title: "CompactRL"
+    status: "Under Review"
+    authors: >-
+      Fang Niu*, <strong>Leqi Zheng*</strong>, Chaokun Wang, Maoxuandi Yu, Hang Zhang
+    links:
+      - label: "Paper"
+        url: "https://openreview.net/pdf?id=8Z9ecm5Cw0"
   - title: "AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents"
     short_title: "AdaMem"
     status: "Under Review"
@@ -150,6 +158,10 @@ publications:
       - label: "Code"
         url: "https://github.com/shannany0606/CCMP"
 model_contributions:
+  - name: "Qwen-3.8-Max"
+    note: "Qwen3.8-Max: A New Bar for Coding and Cowork"
+    team: "Qwen Team"
+    url: "https://qwen.ai/blog?id=qwen3.8"
   - name: "GLM-5.3-Flash"
     note: "GLM-5.3-Flash: Frontier Intelligence, Flash Cost"
     team: "GLM Team · Zhipu.AI"
@@ -173,7 +185,7 @@ model_contributions:
 
 experience:
   - period: "2026 - Now"
-    organization: "Alibaba Qwen"
+    organization: "Qwen"
     role: "Researcher"
     focus: "Code Agents & LLM Post-training"
   - period: "2026"
@@ -191,6 +203,9 @@ experience:
 
 
 awards:
+  - year: "2026"
+    title: "China National Scholarship (Postgraduate)"
+    detail: "Top 1%"
   - year: "2025"
     title: "Yang Huiyan Scholarship"
     detail: "Tsinghua University"
@@ -198,5 +213,5 @@ awards:
     title: "Excellent Higher Education Graduate"
     detail: "Beijing Municipality"
   - year: "2021 — 2023"
-    title: "China National Scholarship"
+    title: "China National Scholarship (Undergraduate)"
     detail: "Three consecutive years · Top 1%"
