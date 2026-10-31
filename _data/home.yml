@@ -73,8 +73,8 @@ publications:
         url: "https://github.com/YuYingLi0/FiRe-OPD"
   - title: "SciLENS: RL-Driven Autonomous Agents for Scientific Localized Evidence Navigation and Synthesis"
     short_title: "SciLENS"
-    venue: "EMNLP Main"
-    year: "2026"
+    venue: "EMNLP Oral"
+    year: "Main 2026"
     authors: "<strong>Leqi Zheng*</strong>, Jinbo Su*, Yuying Li*, et al."
     links:
       - label: "Paper"
@@ -83,8 +83,8 @@ publications:
         url: "https://github.com/LQgdwind/SciLENS"
   - title: "Gradients Know What Outcomes Don’t: Unlocking Reinforcement Learning for LLM Reasoning with Gradient-Aligned Rewards"
     short_title: "Gradient-Aligned Rewards"
-    venue: "EMNLP Main"
-    year: "2026"
+    venue: "EMNLP Oral"
+    year: "Main 2026"
     authors: "<strong>Leqi Zheng*</strong>, Jinbo Su*, Fang Niu*, et al."
     links:
       - label: "Paper"
@@ -120,8 +120,8 @@ publications:
         url: "https://github.com/LQgdwind/nips25-sdcgcl"
   - title: "LAGCL4Rec: When LLMs Activate Interactions Potential in Graph Contrastive Learning for Recommendation"
     short_title: "LAGCL4Rec"
-    venue: "EMNLP Findings"
-    year: "2025"
+    venue: "EMNLP"
+    year: "Findings 2025"
     rank: "TH-CPL-A"
     authors: >-
       <strong>Leqi Zheng</strong>, Chaokun Wang, Canzhi Chen, Jiajun Zhang,
@@ -133,7 +133,7 @@ publications:
         url: "https://github.com/LQgdwind/emnlp25-lagcl4rec"
   - title: "Balancing Self-Presentation and Self-Hiding for Exposure-Aware Recommendation Based on Graph Contrastive Learning"
     short_title: "BPH4Rec"
-    venue: "SIGIR"
+    venue: "SIGIR Oral"
     year: "2025"
     rank: "CCF-A"
     authors: >-
